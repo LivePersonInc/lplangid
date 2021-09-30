@@ -1,8 +1,6 @@
 name: lplangid_github_actions
 
 on: [push]
-paths-ignore:
-  - .github/workflows/onpush_action.yml
 jobs:
   build:
     runs-on: ubuntu-latest

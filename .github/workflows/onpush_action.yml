@@ -21,4 +21,4 @@ jobs:
         # See the setup.cfg for project lint settings including line length.
         run: flake8 . --count --show-source --statistics
       - name: Test with pytest
-        run: pytest .
+        run: python -m pytest .

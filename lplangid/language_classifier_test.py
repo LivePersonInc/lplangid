@@ -127,3 +127,8 @@ def test_sr_hr():
     Zapocnite jutro uz najvece hitove za celu Srbiju, uz zanimljive teme i puno smeha.
     """
     assert lc.get_winner(ALL_TERM_RANKS, ALL_CHAR_WEIGHTS, test_sr) == "hr"
+
+
+def test_break():
+    # Test to see if this causes an alert if we try to push it to github.
+    assert False
